@@ -8,4 +8,10 @@ inventario= {"Huevos":30,"Leche":40,"Avena":50,"Chocolate":{"Chocolate blanco":1
 num_inv= inventario.get(articulo,0)
 print(f"{articulo}: {num_inv}")
 
+#Create by Jhosua Rengel
+print("Porcentage of discount to client frequent")
+cliente=input("Nombre del cliente:")
+porcentage={"Luis Jimenez":20,"Fernanda":50,"Alejandra":70,}
 
+discount= porcentage.get(cliente,"Client not is frequent")
+print(f"{cliente} : {discount}")
